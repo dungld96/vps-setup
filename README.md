@@ -79,7 +79,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-
 
 
 #nginx config: 
-
+```
 server {
 	listen 443 ssl http2;
 	server_name gw.vncss.net www.gw.vncss.net;
@@ -115,3 +115,4 @@ server {
     return 302 https://$server_name$request_uri;
 
 }
+```
